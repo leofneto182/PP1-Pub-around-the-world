@@ -61,7 +61,7 @@ header {
 }
 
 #main-image {
-    background: url("../assets/images/What-is-a-pub-crawl-or-a-bar-crawl.jpg");
+    background: url("/assets/images/What-is-a-pub-crawl-or-a-bar-crawl.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
