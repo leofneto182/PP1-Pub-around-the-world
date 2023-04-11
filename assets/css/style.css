@@ -1,14 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Pacifico&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
 
-h1, h2{
+body {
+    background-color: rgb(46, 52, 52);
+    width: 100%;
+    height: auto;
     font-family: Catamaran, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #e62d2d;
+}
+
+header {
+    position: fixed;
 }
 
 #logo{
     float: left;
-    font-size: 280%;
+    font-size: 90%;
     margin-left: 30px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#menu-color{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.300);
+    height: 45px;
+    width: 100%;
+}
+#nav-menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#logo, #nav-menu{
+    line-height: 43px;
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    color: white;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover{
+    border-bottom: 1px solid white;
+}
+
+.active{
+    border-bottom: 1px solid white;
+}
+
+#main-image {
+    background: url("../assets/images/What-is-a-pub-crawl-or-a-bar-crawl.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
