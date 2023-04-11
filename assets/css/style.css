@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');
+
+h1, h2{
+    font-family: Catamaran, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e62d2d;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
