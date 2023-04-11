@@ -5,6 +5,11 @@
     border:0;
 }
 
+html {
+
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(46, 52, 52);
     width: 100%;
@@ -70,4 +75,18 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+#main-text {
+
+    font-family: 'Pacifico', cursive ;
+    color: white;
+    font-size: 260%;
+      /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    position: relative;
+    text-align: center;
+    margin-top: -60px;
+    background-color: rgba(0, 0, 0, 0.300);
+    padding: 5px;
 }
