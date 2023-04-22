@@ -19,7 +19,7 @@ body {
 
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 #logo{
@@ -33,7 +33,7 @@ header {
 
 #menu-color{
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.300);
+    background-color: rgba(0, 0, 0, 0.800);
     height: 45px;
     width: 100%;
 }
@@ -101,6 +101,7 @@ header {
     margin: 20px 0;
     text-align: center;
     font-size: 280%;
+    text-decoration: none;
 }
 
 .textbox-container {
@@ -108,8 +109,6 @@ header {
     flex-direction: column;
     margin: 30px;
    }
-
-
    
 .textbox-left-one {
     color: white;
@@ -123,6 +122,8 @@ header {
 
 .textbox-left-one:hover {
     transform: scale(1.05);
+    color: orange;
+
 }
 
 .textbox-left-two {
@@ -137,6 +138,7 @@ header {
 
 .textbox-left-two:hover {
     transform: scale(1.05);
+    color: orange;
 }
 
 .textbox-right {
@@ -152,6 +154,7 @@ header {
 
 .textbox-right:hover {
     transform: scale(1.05);
+    color: orange;
 }
 
 .textbox h2 {
@@ -171,7 +174,7 @@ header {
 }
 
 footer{
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks{
@@ -205,3 +208,98 @@ footer{
 #instagram i:hover {
     color: #ea3ec5;
 }
+
+/* Main Countries Page */
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+   }
+   
+   .left-box, .right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 2%;
+   }
+
+   .image-ireland img {
+
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    border: solid 5px black;
+   }
+
+   .image-us img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    border: solid 5px black;
+   }
+   
+   .image-japan img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    border: solid 5px black;
+   }
+
+   .image-spain img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    border: solid 5px black;
+   }
+
+   .image-belgium img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    border: solid 5px black;
+   }
+
+   .image-uk img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    border: solid 5px black;
+   }
+
+   .text-box {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14%;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.300);
+    background-size: cover;
+    box-sizing: border-box;
+    height: 320px;
+    width: 380px; 
+    overflow: auto;
+   }
+   
+   .country-list {
+
+    list-style: disc;
+   }
+
+   .container h1 {
+    letter-spacing: 2px;
+    color: white;
+   }
+
+   .right-box:hover, .left-box:hover {
+    transform: scale(1.05);
+   }
+
