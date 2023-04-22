@@ -19,6 +19,7 @@ body {
 
 header {
     position: fixed;
+    z-index: 1;
 }
 
 #logo{
@@ -89,4 +90,118 @@ header {
     margin-top: -60px;
     background-color: rgba(0, 0, 0, 0.300);
     padding: 5px;
+}
+
+#main-info {
+    height: 600px;
+}
+
+#welcome {
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+.textbox-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+   }
+
+
+   
+.textbox-left-one {
+    color: white;
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.textbox-left-one:hover {
+    transform: scale(1.05);
+}
+
+.textbox-left-two {
+    color: white;
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.textbox-left-two:hover {
+    transform: scale(1.05);
+}
+
+.textbox-right {
+    align-self: flex-end;
+    color: white;
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.textbox-right:hover {
+    transform: scale(1.05);
+}
+
+.textbox h2 {
+    letter-spacing: 2px;
+}
+
+.textbox-right h2 {
+    letter-spacing: 2px;
+}
+   
+.textbox h2 {
+    font-size: 24px;
+}
+   
+.textbox p {
+    font-size: 20px;
+}
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 3%;
+    padding: 3%;
+    color: white;
+}
+
+#facebook i:hover {
+    color: #2a63df;
+}
+
+#twitter i:hover {
+    color: #00acee;
+}
+
+#youtube i:hover {
+    color:#FF0000;
+}
+
+#instagram i:hover {
+    color: #ea3ec5;
 }
