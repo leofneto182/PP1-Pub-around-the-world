@@ -7,7 +7,6 @@
 
 html {
 
-    scroll-behavior: smooth;
 }
 
 body {
@@ -18,8 +17,7 @@ body {
 }
 
 header {
-    position: fixed;
-    z-index: 3;
+    z-index: 10;
 }
 
 #logo{
@@ -32,10 +30,10 @@ header {
 }
 
 #menu-color{
-    position: fixed;
     background-color: rgba(0, 0, 0, 0.800);
     height: 45px;
     width: 100%;
+    top: 0;
 }
 #nav-menu{
     font-size: 110%;
@@ -59,11 +57,11 @@ header {
 }
 
 #nav-menu a:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid orange;
 }
 
 .active{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid orange;
 }
 
 #main-image {
@@ -76,6 +74,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
+
 }
 
 #main-text {
@@ -211,117 +210,109 @@ footer{
 
 /* Main Countries Page */
 
-.container {
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    z-index: 2;
-   }
-   
-   .left-box, .right-box {
+.countries-container {
+    background-attachment: scroll;
+    padding-top: 30px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 30%;
-    padding: 2%;
-   }
+    margin: 30px;
+    z-index: 3;
+}
 
-   .image-ireland img {
-
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin-bottom: 2px;
-    border: solid 5px black;
-   }
-
-   .image-us img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin-bottom: 2px;
-    border: solid 5px black;
-   }
-   
-   .image-japan img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin-bottom: 2px;
-    border: solid 5px black;
-   }
-
-   .image-spain img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin-bottom: 2px;
-    border: solid 5px black;
-   }
-
-   .image-belgium img{
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin-bottom: 2px;
-    border: solid 5px black;
-   }
-
-   .image-uk img{
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin-bottom: 2px;
-    border: solid 5px black;
-   }
-
-   .text-box {
+.country-left {
     color: white;
-    text-align: center;
-    vertical-align: middle;
-    padding: 12%;
-    border-radius: 8px;
+    width: 70%;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.300);
-    background-size: cover;
-    box-sizing: border-box;
-    height: 320px;
-    width: 380px; 
-    overflow: auto;
-   }
-   
-   .country-list {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
 
-    list-style: disc;
-   }
+.country-left:hover {
+    transform: scale(1.05);
+    color: orange;
 
-   .container h1 {
-    letter-spacing: 2px;
+}
+
+.country-right {
+    align-self: flex-end;
     color: white;
-   }
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.country-right:hover {
+    transform: scale(1.05);
+    color: orange;
+
+} 
+
+.countries-container img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    border: solid 5px black;
+}
+
+#ireland-image, #japan-image, #belgium-image{
+
+    float: right;
+    padding-left: 3%;
+}
+
+#us-image, #spain-image, #uk-image{
+
+    float: left;
+    padding-right: 3%;
+}
+
+.countries-container h2 {
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
    /* Newsletter */
 
    .form-section {
-    clear: left;
+
     background: url("/assets/images/the-crawl-newsletter.jpeg");
-    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 150px 2% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(0, 0, 0, 0.600);
+    border-radius: 20px;
+    border: solid 1px white;
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 55%;
+    top: 15%;
     padding: 30px;
+    padding-right: 20px;
 }
 
 .signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 .text-input {
@@ -335,25 +326,120 @@ footer{
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: orange;
 }
 
-.join-button {
+.join-button, .return-button {
     margin-top: 20px;
-    border-radius: 2px;
+    margin-left: 120px;
+    border-radius: 20px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: orange;
     color: #fafafa;
     display: block;
 }
 
-.join-button:hover {
+.join-button:hover, .return-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: orange;
 }
 
+
+/* Thank you page */
+
+#thankyou-image {
+    clear: left;
+    background: url("/assets/images/thankyou-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    z-index: 1;
+}
+
+.thankyou-message {
+
+    margin: 150px 2% 0 0;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.600);
+    border-radius: 20px;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 43%;
+    padding: 30px;
+    z-index: 2;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    .signup-form {
+        margin: 0;
+        left: 200px;
+        right: 200px;
+        top: 25%;
+    }
+
+
+}
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    .signup-form {
+        margin: 0;
+        left: 60px;
+        right: 60px;
+        top: 25%;
+    }
+}
+
+/* For small screens sizes from 830px wide and down */
+@media screen and (max-width: 830px){
+    #nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #menu-color{
+        height: 80px;
+    }
+
+    .container {
+        padding-top: 90px;
+        width: 80%;
+        columns: 1;
+    }
+    .right-box {
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .signup-form {
+        margin: 0;
+        left: 10px;
+        right: 10px;
+        top: 25%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    #nav-menu {
+        float: left;
+        font-size: 90%;
+        padding: 1px;
+    }
+    
+}
 
 
 
