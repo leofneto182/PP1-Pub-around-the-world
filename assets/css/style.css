@@ -223,7 +223,7 @@ footer{
 .country-left {
     color: white;
     width: 70%;
-    padding: 20px;
+    padding: 35px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
@@ -238,9 +238,10 @@ footer{
 
 .country-right {
     align-self: flex-end;
+    margin: 10px;
     color: white;
     width: 70%;
-    padding: 20px;
+    padding: 35px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
@@ -279,6 +280,27 @@ footer{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.countries-container a {
+    color: #0339f8;
+}
+
+.check-button-right {
+    color: white;
+    letter-spacing: 1px;
+    float: right;
+}
+
+.check-button-left {
+    letter-spacing: 1px;
+    float: left;
+}
+
+.countries-container a:hover {
+    color: white;
+    letter-spacing: 1px;
+}
+
 
    /* Newsletter */
 
@@ -431,7 +453,7 @@ footer{
     }
 
 }
-
+/* For small screens sizes from 500px wide and down */
 @media screen and (max-width: 500px){
     #nav-menu {
         float: left;
