@@ -383,11 +383,14 @@ footer{
 
 #thankyou-image {
     clear: left;
+    width: 100%;
     background: url("../images/thankyou-image.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 900px;
-    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thankyou-message {
@@ -447,7 +450,6 @@ footer{
         clear: left;
         float: left;
         margin-left: 30px; 
-        margin-bottom: 20px;
         line-height: 25px;
     }
 
@@ -477,6 +479,7 @@ footer{
 
 
 
+
 }
 /* For small screens sizes from 500px wide and down */
 @media screen and (max-width: 500px){
@@ -485,7 +488,13 @@ footer{
         font-size: 90%;
         padding: 1px;
     }  
-
+    .thankyou-message {
+    max-width: 400px;
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    top: 20%;
+    padding: 30px;
 }
 
 /* For small screens sizes from 385px wide and down */
@@ -508,9 +517,10 @@ footer{
         font-size: 60%;
     }
 
-    .join-button {
+    .join-button, .return-button {
         margin-left: 60px;
     }
+
 }
 
 
