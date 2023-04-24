@@ -70,7 +70,7 @@ header {
 /* Main image */
 
 #main-image {
-    background: url("../portfolio-one/assets/images/main-image.jpg");
+    background: url("../images/main-image.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -313,7 +313,7 @@ footer{
 /* Newsletter */
 
 .form-section {
-    background: url("..assets/images/the-crawl-newsletter.jpeg");
+    background: url("../images/the-crawl-newsletter.jpeg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -382,7 +382,7 @@ footer{
 
 #thankyou-image {
     clear: left;
-    background: url("..assets/images/thankyou-image.jpeg");
+    background: url("../images/thankyou-image.jpeg");
     background-size: cover;
     background-position: center;
     height: 900px;
