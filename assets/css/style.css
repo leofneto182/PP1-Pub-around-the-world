@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Pacifico&display=swap');
+
 *{
     margin:0;
     padding:0;
     border:0;
 }
 
-html {
-
-}
+/* Body */
 
 body {
     background-color: rgb(46, 52, 52);
@@ -16,9 +15,11 @@ body {
     font-family: Catamaran, sans-serif;
 }
 
+/* Header and Logo */
+
 header {
-    z-index: 10;
-}
+    overflow: hidden;
+} 
 
 #logo{
     float: left;
@@ -29,8 +30,10 @@ header {
     letter-spacing: 3px;
 }
 
+/* Menu and Nav links */
+
 #menu-color{
-    background-color: rgba(0, 0, 0, 0.800);
+    background-color: black;
     height: 45px;
     width: 100%;
     top: 0;
@@ -64,8 +67,10 @@ header {
     border-bottom: 1px solid orange;
 }
 
+/* Main image */
+
 #main-image {
-    background: url("/assets/images/What-is-a-pub-crawl-or-a-bar-crawl.jpg");
+    background: url("assets/images/main-image.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,11 +79,11 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
 
-#main-text {
+/* Key main question */
 
+#main-text {
     font-family: 'Pacifico', cursive ;
     color: white;
     font-size: 260%;
@@ -90,6 +95,8 @@ header {
     background-color: rgba(0, 0, 0, 0.300);
     padding: 5px;
 }
+
+/* Info and tips */
 
 #main-info {
     height: 600px;
@@ -156,7 +163,7 @@ header {
     color: orange;
 }
 
-.textbox h2 {
+.textbox-container h2 {
     letter-spacing: 2px;
 }
 
@@ -164,13 +171,15 @@ header {
     letter-spacing: 2px;
 }
    
-.textbox h2 {
-    font-size: 24px;
+.textbox-container h2 {
+    font-size: 22px;
 }
    
-.textbox p {
-    font-size: 20px;
+.textbox-container p {
+    font-size: 18px;
 }
+
+/* Footer */
 
 footer{
     height: 100px;
@@ -208,7 +217,7 @@ footer{
     color: #ea3ec5;
 }
 
-/* Main Countries Page */
+/* Countries Page */
 
 .countries-container {
     background-attachment: scroll;
@@ -233,7 +242,6 @@ footer{
 .country-left:hover {
     transform: scale(1.05);
     color: orange;
-
 }
 
 .country-right {
@@ -251,34 +259,34 @@ footer{
 .country-right:hover {
     transform: scale(1.05);
     color: orange;
-
 } 
 
 .countries-container img {
-
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-bottom: 2px;
-    border: solid 5px black;
+    border: solid 4px black;
 }
 
 #ireland-image, #japan-image, #belgium-image{
-
     float: right;
     padding-left: 3%;
 }
 
 #us-image, #spain-image, #uk-image{
-
     float: left;
     padding-right: 3%;
 }
 
 .countries-container h2 {
-
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.countries-container  {
+    font-size: 18px;
 }
 
 .countries-container a {
@@ -302,11 +310,10 @@ footer{
 }
 
 
-   /* Newsletter */
+/* Newsletter */
 
-   .form-section {
-
-    background: url("/assets/images/the-crawl-newsletter.jpeg");
+.form-section {
+    background: url("assets/images/the-crawl-newsletter.jpeg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -351,6 +358,8 @@ footer{
     border-color: orange;
 }
 
+/* "Join" button for newsletter page and "Return to Home" button for signed page */
+
 .join-button, .return-button {
     margin-top: 20px;
     margin-left: 120px;
@@ -373,7 +382,7 @@ footer{
 
 #thankyou-image {
     clear: left;
-    background: url("/assets/images/thankyou-image.jpeg");
+    background: url("assets/images/thankyou-image.jpeg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -385,6 +394,7 @@ footer{
     margin: 150px 2% 0 0;
     letter-spacing: 1px;
     color: #fff;
+    border: solid 1px white;
     background-color: rgba(0, 0, 0, 0.600);
     border-radius: 20px;
     max-width: 400px;
