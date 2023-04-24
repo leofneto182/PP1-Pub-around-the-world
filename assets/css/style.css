@@ -213,6 +213,12 @@ footer{
     color: #ea3ec5;
 }
 
+#copyrights {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
 /* Countries Page */
 
 .countries-container {
