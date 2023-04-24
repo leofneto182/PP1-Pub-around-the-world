@@ -118,7 +118,7 @@ body {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
     margin-bottom: 5%;
 }
 
@@ -134,7 +134,7 @@ body {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
     margin-bottom: 5%;
 }
 
@@ -150,7 +150,7 @@ body {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
     margin-bottom: 5%;
 }
 
@@ -236,7 +236,7 @@ footer{
     padding: 35px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
     margin-bottom: 20px;
 }
 
@@ -253,7 +253,7 @@ footer{
     padding: 35px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px x rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
     margin-bottom: 20px;
 }
 
@@ -497,6 +497,8 @@ footer{
     padding: 30px;
 }
 
+}
+
 /* For small screens sizes from 385px wide and down */
 @media screen and (max-width: 385px){
     #nav-menu {
@@ -522,6 +524,5 @@ footer{
     }
 
 }
-
 
 
