@@ -70,7 +70,7 @@ header {
 /* Main image */
 
 #main-image {
-    background: url("..assets/images/main-image.jpg");
+    background: url("../portfolio-one/assets/images/main-image.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
