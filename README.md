@@ -53,13 +53,13 @@ Pub Crawls Around he World is a website target toward anyone who wants to get to
 
     * As the "Let's get to know it" section, this page also provides a hover effect, keeping the main page standard.
 
-    * Some users might want to have more information about certain country, and for this reason a "See more" link has been added to the end of each country text box. The links will open a new tab to allow the user to check the main website of the selected country.
+    * Some users might want to have more information about Pub Crawl in certain country, and for this reason a "See more" link has been added to the end of each country text box. The links will open a new tab to allow the user to check the main pub crawl website of the selected country.
 
     ![Screenshot of the "Countries" page with the hover effect on.](/assets/images/countries-image-hover.jpg)
 
 - ### Newsletter page
 
-    * This section contains a form which asks the user to insert their details in ordere to sign the newsletter up.
+    * This section contains a form which asks the user to insert their details in order to sign the newsletter up.
 
     * The user is asked to provide their first and last name, email address, their age between three groups (18-22, 23-26, over 26 years old) and their favorite country between the six countries mentioned on the Countries page.
 
@@ -69,13 +69,13 @@ Pub Crawls Around he World is a website target toward anyone who wants to get to
 
 - ### Signed page
 
-    * This page contains a thank you message for the user subscription on the newsletters, a cheers image "celebrating" their subscrption and a button that allows the user go back to the home page without clicking on the menu.
+    * This page contains a thank you message for the user subscription on the newsletters, a cheers image "celebrating" their subscription and a button that allows the user go back to the home page without clicking on the menu.
 
     ![Screenshot of the "signed" page.](/assets/images/singed-page.jpg)
 
 ## Features left to implement
 
-* Including one picture to "Let's get to know section" and another to the Countries page.
+* Including one picture to "Let's get to know it" section and another to the Countries page.
 
 # Testing
 
@@ -118,7 +118,7 @@ Pub Crawls Around he World is a website target toward anyone who wants to get to
 
 - ## Content
     
-    - All the content was taken from Wikepedia page: [wikipedia.org](https://en.wikipedia.org/wiki/Pub_crawl)
+    - All the content was taken from Wikipedia page: [wikipedia.org](https://en.wikipedia.org/wiki/Pub_crawl)
 
 * Countries page (See more links)
     - Ireland - [irishpost.com](https://www.irishpost.com/life-style/heres-play-12-pubs-christmas-irish-tradition-bizarre-rules-plenty-booze-175246)
@@ -129,9 +129,9 @@ Pub Crawls Around he World is a website target toward anyone who wants to get to
     - United Kingdom - [monopolyboardpubcrawl.com](http://monopolyboardpubcrawl.com/route.html)
 
 - ## Media
-    - Main image taken from [flamingotoursandtrips.com](https://flamingotoursandtrips.com/what-is-a-pub-crawl/)
-    - Newsletter page image taken from [www.tripadvisor.ie](https://www.tripadvisor.ie/Attraction_Review-g186338-d2013625-Reviews-1_Big_Night_Out_Pub_Crawl-London_England.html)
-    - signedup page image taken from [www.neweuropetours.eu](https://www.neweuropetours.eu/st-patricks-day-pub-crawls/)
+    - Main image taken from: [flamingotoursandtrips.com](https://flamingotoursandtrips.com/what-is-a-pub-crawl/)
+    - Newsletter page image taken from: [www.tripadvisor.ie](https://www.tripadvisor.ie/Attraction_Review-g186338-d2013625-Reviews-1_Big_Night_Out_Pub_Crawl-London_England.html)
+    - signedup page image taken from: [www.neweuropetours.eu](https://www.neweuropetours.eu/st-patricks-day-pub-crawls/)
 
 
 
