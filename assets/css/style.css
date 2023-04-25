@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Pacifico&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 
@@ -19,7 +19,7 @@ body {
 /* Logo */
 
 
-#logo{
+#logo {
     float: left;
     font-size: 90%;
     margin-left: 30px;
@@ -30,18 +30,20 @@ body {
 
 /* Menu and Nav links */
 
-#menu-color{
+#menu-color {
     background-color: black;
     height: 45px;
     width: 100%;
     top: 0;
 }
-#nav-menu{
+
+#nav-menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#logo, #nav-menu{
+#logo,
+#nav-menu {
     line-height: 43px;
 }
 
@@ -57,11 +59,11 @@ body {
     color: inherit;
 }
 
-#nav-menu a:hover{
+#nav-menu a:hover {
     border-bottom: 1px solid orange;
 }
 
-.active{
+.active {
     border-bottom: 1px solid orange;
 }
 
@@ -82,10 +84,10 @@ body {
 /* Key main question */
 
 #main-text {
-    font-family: 'Pacifico', cursive ;
+    font-family: 'Pacifico', cursive;
     color: white;
     font-size: 260%;
-      /* 1 pixel black shadow to left, top, right and bottom */
+    /* 1 pixel black shadow to left, top, right and bottom */
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     position: relative;
     text-align: center;
@@ -110,15 +112,15 @@ body {
     flex-direction: column;
     margin: 30px;
     margin-bottom: 20px;
-   }
-   
+}
+
 .textbox-left-one {
     color: white;
     width: 70%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     margin-bottom: 5%;
 }
 
@@ -134,7 +136,7 @@ body {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     margin-bottom: 5%;
 }
 
@@ -150,7 +152,7 @@ body {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     margin-bottom: 5%;
 }
 
@@ -166,31 +168,31 @@ body {
 .textbox-right h2 {
     letter-spacing: 2px;
 }
-   
+
 .textbox-container h2 {
     font-size: 22px;
 }
-   
+
 .textbox-container p {
     font-size: 18px;
 }
 
 /* Footer */
 
-footer{
+footer {
     height: 100px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 3%;
     padding: 3%;
@@ -206,7 +208,7 @@ footer{
 }
 
 #youtube i:hover {
-    color:#FF0000;
+    color: #FF0000;
 }
 
 #instagram i:hover {
@@ -236,7 +238,7 @@ footer{
     padding: 35px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
 }
 
@@ -253,14 +255,14 @@ footer{
     padding: 35px;
     background-color: rgba(0, 0, 0, 0.300);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
 }
 
 .country-right:hover {
     transform: scale(1.05);
     color: orange;
-} 
+}
 
 .countries-container img {
     width: 80px;
@@ -270,12 +272,16 @@ footer{
     border: solid 4px black;
 }
 
-#ireland-image, #japan-image, #belgium-image{
+#ireland-image,
+#japan-image,
+#belgium-image {
     float: right;
     padding-left: 3%;
 }
 
-#us-image, #spain-image, #uk-image{
+#us-image,
+#spain-image,
+#uk-image {
     float: left;
     padding-right: 3%;
 }
@@ -286,7 +292,7 @@ footer{
     font-size: 22px;
 }
 
-.countries-container  {
+.countries-container {
     font-size: 18px;
 }
 
@@ -339,7 +345,7 @@ footer{
     padding-right: 20px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
     letter-spacing: 1px;
@@ -361,7 +367,8 @@ footer{
 
 /* "Join" button for newsletter page and "Return to Home" button for signed page */
 
-.join-button, .return-button {
+.join-button,
+.return-button {
     margin-top: 20px;
     margin-left: 120px;
     border-radius: 20px;
@@ -373,7 +380,8 @@ footer{
     display: block;
 }
 
-.join-button:hover, .return-button:hover {
+.join-button:hover,
+.return-button:hover {
     background-color: #fafafa;
     color: orange;
 }
@@ -412,7 +420,7 @@ footer{
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .signup-form {
         margin: 0;
         left: 200px;
@@ -422,8 +430,9 @@ footer{
 
 
 }
+
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
     .signup-form {
         margin: 0;
         left: 60px;
@@ -433,7 +442,7 @@ footer{
 }
 
 /* For medium screens sizes from 930px wide and down */
-@media screen and (max-width: 930px){
+@media screen and (max-width: 930px) {
     .signup-form {
         margin: 0;
         left: 60px;
@@ -445,15 +454,15 @@ footer{
 
 
 /* For small screens sizes from 830px wide and down */
-@media screen and (max-width: 830px){
+@media screen and (max-width: 830px) {
     #nav-menu {
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         line-height: 25px;
     }
 
-    #menu-color{
+    #menu-color {
         height: 80px;
     }
 
@@ -462,10 +471,11 @@ footer{
         width: 80%;
         columns: 1;
     }
+
     .right-box {
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -481,26 +491,28 @@ footer{
 
 
 }
+
 /* For small screens sizes from 500px wide and down */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     #nav-menu {
         float: left;
         font-size: 90%;
         padding: 1px;
-    }  
+    }
+
     .thankyou-message {
-    max-width: 400px;
-    position: absolute;
-    left: 2%;
-    right: 2%;
-    top: 20%;
-    padding: 30px;
-}
+        max-width: 400px;
+        position: absolute;
+        left: 2%;
+        right: 2%;
+        top: 20%;
+        padding: 30px;
+    }
 
 }
 
 /* For small screens sizes from 385px wide and down */
-@media screen and (max-width: 385px){
+@media screen and (max-width: 385px) {
     #nav-menu {
         clear: left;
         float: left;
@@ -508,9 +520,9 @@ footer{
         font-size: 60%;
         padding: 0.1px;
         line-height: 25px;
-    }  
+    }
 
-    #menu-color{
+    #menu-color {
         height: 80px;
     }
 
@@ -519,10 +531,9 @@ footer{
         font-size: 60%;
     }
 
-    .join-button, .return-button {
+    .join-button,
+    .return-button {
         margin-left: 60px;
     }
 
 }
-
-

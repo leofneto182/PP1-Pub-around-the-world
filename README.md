@@ -1,108 +1,156 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pub Crawls Around the World
 
-Welcome Leonidio Neto,
+Pub Crawls Around he World is a website target toward anyone who wants to get to know what a Pub Crawl is, for people who is looking for more information about Pub Crawl in different countries around the world. Pub Crawl Around the World will be helpful for people who wants to know what is the best pub crawl to go on depending on their favorite country, date of the year or culture.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Resposive photo](/assets/images/responsive-image.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Existing Features
 
-## Gitpod Reminders
+- ### Navigation Bar
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    * Featured on all four pages, the full responsive navigation bar includes, Home page, countries and newsletter page and is identical in each page to allow for easy navigation.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+    ![Screenshot of the menu bar.](/assets/images/menu-bar.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+- ### The landing page image
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * This landing includes a picture of a "Shot time" moment in a Pub Crawl in Moscow.
 
-A blue button should appear to click: _Make Public_,
+    * This section asks the user a key question "Have you ever been on a Pub Crawl?", which along with the landing picture, grab the user attention for getting more information about Pub Crawl.
 
-Another blue button should appear to click: _Open Browser_.
+    ![Screenshot of the main image with key question.](/assets/images/ss-main-image.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- ### "Let's get to know it" Section
 
-To log into the Heroku toolbelt CLI:
+    * This section will be provinding the user two main information about Pub Crawl, and one special tip for whose are willing to join on one.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    ![Screenshot of the "Let's get to know it" section.](/assets/images/get-to-know-normal.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    * This section also provides a hover effect which the text box gets 5% bigger and the text color changes from white to orange, grabbing the user attention.
 
-------
+    ![Screenshot of the "Let's get to know it" section with the hover effect on](/assets/images/get-to-know-hover.jpg)
 
-## Release History
+- ### Footer
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    * Featured on all four pages, the footer section includes links to social media sites as Facebook, Twitter, Youtube and Instagram.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    * Below the social media links, a Copyright section and the name of the author were included.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    ![Screenshot of the Footer section](/assets/images/footer-image-normal.jpg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    * The footer also provides a hover effect changing the color of the icon from white to the real color of the social media logo.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    ![Screenshot of the Footer section with the hover effect on](/assets/images/footer-image-hover.jpg)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- ### Countries page
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    * This section provides the user one information about six countries which are famous for holding at least one Pub Crawl (Ireland, United States, Japan, Spain, Belgium and United Kingdom).
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    ![Screenshot of the "Countries" page.](/assets/images/countries-image-normal.jpg)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    * As the "Let's get to know it" section, this page also provides a hover effect, keeping the main page standard.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    * Some users might want to have more information about certain country, and for this reason a "See more" link has been added to the end of each country text box. The links will open a new tab to allow the user to check the main website of the selected country.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    ![Screenshot of the "Countries" page with the hover effect on.](/assets/images/countries-image-hover.jpg)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- ### Newsletter page
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    * This section contains a form which asks the user to insert their details in ordere to sign the newsletter up.
 
-------
+    * The user is asked to provide their first and last name, email address, their age between three groups (18-22, 23-26, over 26 years old) and their favorite country between the six countries mentioned on the Countries page.
 
-## FAQ about the uptime script
+    * This section contains a background image which gives the user the sensation of being waited by the crowd to go on a Pub Crawl.
 
-**Why have you added this script?**
+    ![Screenshot of the "Newsletters" page.](/assets/images/newsletter-page-image.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- ### Signed page
 
-**How will this affect me?**
+    * This page contains a thank you message for the user subscription on the newsletters, a cheers image "celebrating" their subscrption and a button that allows the user go back to the home page without clicking on the menu.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    ![Screenshot of the "signed" page.](/assets/images/singed-page.jpg)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Features left to implement
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* Including one picture to "Let's get to know section" and another to the Countries page.
 
-**So….?**
+# Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* The website was built to be responsive on screens 320px wide and above.
+* All the links on the nav bar, buttons, social media links, etc are working as expected.
 
-**Can I opt out?**
+## Validator Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- ### HTML 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+    * No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/).
 
-**Anything more?**
+    ![W3C Validator screenshot](/assets/images/w3c-validator.jpg)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- ### CSS 
 
----
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 
-Happy coding!
+    ![Jigsaw Validator screenshot](/assets/images/jigsaw-validator.jpg)
+
+- ### Lighthouse
+
+    ![Lighthouse screenshot](/assets/images/lighthouse-image.jpg)
+
+- ### Wave
+
+    ![Wave Screenshot](/assets/images/wave-accessbility.jpg)
+
+# Deployment 
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    - In the GitHub repository, navigate to the Settings tab;
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+* The link can be found here: https://github.com/leofneto182/PP1-Pub-around-the-world
+
+# Credits
+
+- ## Content
+    
+    - All the content was taken from Wikepedia page: [wikipedia.org](https://en.wikipedia.org/wiki/Pub_crawl)
+
+* Countries page (See more links)
+    - Ireland - [irishpost.com](https://www.irishpost.com/life-style/heres-play-12-pubs-christmas-irish-tradition-bizarre-rules-plenty-booze-175246)
+    - United States - [richandbennett.com](https://richandbennett.com/)
+    - Japan - [tokyopubcrawl.com](https://www.tokyopubcrawl.com/)
+    - Spain - [madride.net](https://madride.net/pub-crawl-madrid/)
+    - Belgium - [bestpubcrawl.com](https://bestpubcrawl.com/the-ultimate-guide-to-beerwalk-antwerp-pub-crawl/)
+    - United Kingdom - [monopolyboardpubcrawl.com](http://monopolyboardpubcrawl.com/route.html)
+
+- ## Media
+    - Main image taken from [flamingotoursandtrips.com](https://flamingotoursandtrips.com/what-is-a-pub-crawl/)
+    - Newsletter page image taken from [www.tripadvisor.ie](https://www.tripadvisor.ie/Attraction_Review-g186338-d2013625-Reviews-1_Big_Night_Out_Pub_Crawl-London_England.html)
+    - signedup page image taken from [www.neweuropetours.eu](https://www.neweuropetours.eu/st-patricks-day-pub-crawls/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
